@@ -1,0 +1,60 @@
+<html>
+       <head>
+             <tittle><h1>Enter Your Details</h1></tittle>
+             <style>
+                    
+                    form{
+                               
+                               background-color:transparent;
+                               border:2px solid red;
+                               border-radius:4px;
+                               padding:20px;
+                             }
+                  body{
+                           
+                            background-size:cover;
+                             
+                           }
+                label{
+                          display:block;
+                           
+                          
+                        }
+                
+             </style>
+       <head>
+       <body ><form action="details" >
+              
+                    <br>
+                   <label for ="fname">Name:</label>
+                   <br><input type="text" id="name"name="fname" onblur="upper()" pattern="[A-Z]{0,}" title="special characters not allowed">
+                    <br>
+                    <label for ="lname">Department:</label>
+                  
+                    <br> <input type="text" id="lname" name="dept"  onblur="uppers()" title="special characters not allowed">
+                     <br>
+                     <p>Mail</p>
+                     
+                      <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"required>
+                      <br> <label for="phone">Enter your contact number:</label>
+                      <input type="text" id="contact" name="phone" pattern="[0-9]{10}"required title="Must be 10 digits">
+                      <br>
+                      <br>
+                      <label for="pwd">Area of Intrest</label>
+                       
+                       <input type="text" id="pwd" name="intrest">
+                       
+					   <label for="Adress">city</label>
+					   <br>
+					   <input type="text" name="city" id="Adress" required>
+                        
+                       
+                       <br>
+                        <br>
+                    
+					   <input type="submit">
+					   
+                       
+              </body>
+                      
+                       

@@ -1,0 +1,62 @@
+<html>
+       <head>
+             <tittle>team home</tittle>
+             <style>
+                    
+                    form{
+                               
+                               background-color:transparent;
+                               border:2px solid red;
+                               border-radius:4px;
+                               padding:20px;
+                             }
+                  body{
+                           
+                            background-size:cover;
+                             
+                           }
+                label{
+                          display:block;
+                           
+                          
+                        }
+                
+             </style>
+       <head>
+       <body ><form action="addr" >
+              
+                    <br>
+                   <label for ="fname">First name:</label>
+                   <br><input type="text" id="fname"name="fname" onblur="upper()" pattern="[A-Z]{0,}" title="special characters not allowed">
+                    <br>
+                    <label for ="lname">Last name:</label>
+                  
+                    <br> <input type="text" id="lname"name="lname"  onblur="uppers()" pattern="[A-Z]{0,}"title="special characters not allowed">
+                     <br>
+                     <p>Mail</p>
+                     
+                      <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"required>
+                      <br> <label for="phone">Enter your contact number:</label>
+                      <input type="text" id="phone" name="phone" pattern="[0-9]{10}"required title="Must be 10 digits">
+                      <br>
+                      <br>
+                      <label for="pwd">password:</label>
+                       
+                       <input type="password" id="pwd" name="pwd">
+                       
+					   <label for="Adress">contact Adress</label>
+					   <br>
+					   <input type="text" name="Address" id="Adress" required>
+                        
+                       
+                       <br>
+                        <br>
+                    
+                       <input type="checkbox" id="done" name="done" value="done" required>
+                       <label for="done">Yes i'am in</label>
+					   <input type="submit">
+					   
+                       
+              </body>
+                      
+                       

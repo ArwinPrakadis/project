@@ -1,0 +1,19 @@
+<head>
+</head>
+<body>
+   <body ><form action="http://127.0.0.1:8000/submit/">
+              
+                    <br>
+                   <label for ="fname">Name:</label>
+                   <br><input type="text" id="name"name="name" onblur="upper()" pattern="[A-Z]{0,}" title="special characters not allowed">
+                    <br>
+                    <label for ="lname">Department:</label>
+                  
+                    <br> <input type="text" id="lname" name="dept"  onblur="uppers()" title="special characters not allowed">
+                     <br>
+                     <p>Mail</p>
+                     
+                      <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"required>
+					  <input type="submit">
+	</body>
+
